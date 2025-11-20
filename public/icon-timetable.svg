@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Calendar -->
+  <rect x="8" y="14" width="48" height="40" rx="4" ry="4" fill="none" stroke="url(#grad)" stroke-width="3"/>
+  <line x1="8" y1="22" x2="56" y2="22" stroke="url(#grad)" stroke-width="3"/>
+
+  <!-- Calendar rings -->
+  <circle cx="20" cy="12" r="3" fill="url(#grad)"/>
+  <circle cx="44" cy="12" r="3" fill="url(#grad)"/>
+
+  <!-- Grid -->
+  <rect x="16" y="28" width="10" height="8" fill="url(#grad)" opacity="0.3"/>
+  <rect x="28" y="28" width="10" height="8" fill="url(#grad)" opacity="0.3"/>
+  <rect x="16" y="38" width="10" height="8" fill="url(#grad)" opacity="0.3"/>
+  <rect x="28" y="38" width="10" height="8" fill="url(#grad)" opacity="0.3"/>
+
+  <!-- Check circle -->
+  <circle cx="46" cy="46" r="10" fill="white" stroke="url(#grad)" stroke-width="3"/>
+  <polyline points="41,46 45,50 51,42" fill="none" stroke="url(#grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
